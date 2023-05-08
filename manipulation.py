@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self,owner, balance):
         self.owner = owner
-        self.balance = balance
+        self.balance = 0
 
     def get_balance(self):
         return self.balance
